@@ -257,6 +257,53 @@ header .link .a:hover{
     text-transform:none;
     padding: 0rem 9rem;
 }
+/*Work Experience  */
+.WorkExperience-heading-center {
+    /* position: relative; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0 30px 0;
+}
+.WorkExperience-heading-center .main_title {
+    font-size: 4rem;
+    color: #131022;
+    font-weight: 900;
+    /* position: relative; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WorkExperience-heading-center .sub_title {
+    font-size: 2.625rem;
+    color: #6772E5;
+    font-family: "Caveat", cursive;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.work-experience{
+    /* padding:2rem; */
+    margin: 3rem 0rem;
+}
+.work-experience h3{
+    font-size: 2rem;
+}
+.work-experience .h3_right{
+    right: 3rem;
+    position: absolute;
+    right: 2rem;
+    font-size: 1.5rem;
+}
+.work-experience img{
+    width: 7rem;
+}
+.work-experience .company_name{
+    font-size: 2rem;
+    
+    padding: 0rem 2rem;
+} 
 
 /* Footer.php */
 .portfolio-footer-section{
