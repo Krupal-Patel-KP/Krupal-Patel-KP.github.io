@@ -255,7 +255,7 @@ header .link .a:hover{
     font-size: 1.7rem;
     white-space: pre-wrap;
     text-transform:none;
-    padding: 0rem 9rem;
+/*     padding: 0rem 9rem; */
 }
 /*Work Experience  */
 .WorkExperience-heading-center {
