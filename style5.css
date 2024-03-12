@@ -292,7 +292,7 @@ header .link .a:hover{
 .work-experience .h3_right{
     right: 3rem;
     position: absolute;
-    right: 2rem;
+    right: 0.5rem;
     font-size: 1.5rem;
 }
 .work-experience img{
