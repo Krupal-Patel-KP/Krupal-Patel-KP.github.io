@@ -1,6 +1,5 @@
 /* google poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
-
 :root{
     --box-shadow:0 .1rem 1rem rgba(0,0,0.1);
 
@@ -255,7 +254,7 @@ header .link .a:hover{
     font-size: 1.7rem;
     white-space: pre-wrap;
     text-transform:none;
-/*     padding: 0rem 9rem; */
+    padding: 0rem 3rem;
 }
 /*Work Experience  */
 .WorkExperience-heading-center {
