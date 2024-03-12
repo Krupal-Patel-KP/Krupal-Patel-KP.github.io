@@ -300,9 +300,11 @@ header .link .a:hover{
 }
 .work-experience .company_name{
     font-size: 2rem;
-    
     padding: 0rem 2rem;
 } 
+.work-container{
+        padding: 0rem 3rem;
+}
 
 /* Footer.php */
 .portfolio-footer-section{
