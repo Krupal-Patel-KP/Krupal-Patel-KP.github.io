@@ -686,5 +686,8 @@ header .link .a:hover{
     header .link {
         font-size: 2rem;
     }
+    .work-experience .h3_right{
+    right: -2rem;
+}
 }
 
