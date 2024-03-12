@@ -1,1 +1,688 @@
+/* google poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+:root{
+    --box-shadow:0 .1rem 1rem rgba(0,0,0.1);
+
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline:none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+} 
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+body{
+    width: fit-content;
+    background: white;
+}
+.h1, h1 {
+    font-size: 4rem;
+}
+.h2, h2 {
+    font-size: 3rem;
+}
+.h4, h4 {
+    font-size: 2rem;
+}
+header{
+    font-size: 1.5rem;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3%;
+    box-shadow: var(--box-shadow);
+    z-index: 1;
+
+}
+header .logo{
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+}
+header .h_navbar{
+    position: relative;
+    z-index: 1;
+}
+header .h_navbar .a{
+    font-size: 2.5rem;
+    color: white;
+    margin: 1rem;
+    padding:1rem
+}
+header .h_navbar a:hover{
+    color:  blue;
+}
+header .h_navbar .a .mb-0{
+    display: none;
+}
+header .link{
+    font-size: 3rem;
+}
+header .link .a{
+    margin: .5rem;
+    color:white;
+}
+header .link .a:hover{
+    /* background-color:  blue; */
+    color: blue;
+}
+#menu-btn{
+    display: none;
+}
+.header .h_navbar.active{
+    right: 4rem;
+}
+.header .h_navbar.active a{
+    color:black;
+}
+.btn{    
+    color:black;
+    border: 1.5px solid black;
+    border-radius: 1rem;
+    background-color: white;
+    width: 16rem;
+    height: 3.15rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.protfolio{
+    margin-top: 7rem;
+    /* background-color: pink; */
+    height: 50rem;
+    border: 2px solid black;
+    color:white;
+}
+.protfolio .p_container{
+    height: 40rem;
+    display: flex;
+}
+.protfolio .p_container .information{
+    /* border: 2px solid black; */
+    width: 50%;
+    height:40rem;
+    float: left;
+    padding: 13rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.profileImage{
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 2rem;
+    height: 40rem;
+    /* top: 2rem; */
+    width: 50%;
+    float: right;
+    /* right: 7rem; */
+    justify-content: center;
+}
+.profilePhoto{
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.justify-content-lg-end{
+    justify-content: flex-end;
+}
+.portfolio-about-section .statics-info {
+    /* position: relative; */
+    top: -80px;
+}
+.portfolio-about-section .statics-info .media-body{
+    margin: 12px 7px;
+}
+
+.portfolio-about-section{
+    border: 1px solid black;
+    border-radius: 23rem;
+    width:65rem;
+    /* width:100%; */
+    height: 15rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* padding: 3rem; */
+    margin: -8rem auto;
+    /* position: relative; */
+}
+.flaticon-div {
+    display: contents;
+    justify-content: space-between;
+}
+.flaticon-div .statics-info{
+    width: 15rem;
+    height: 13rem;
+    /* border: 1px solid; */
+    padding: 1.5rem;
+    text-align: center;
+    margin: 1rem 3rem;
+    align-items: center;
+    border-radius: 6rem;
+}
+.flaticon-div .statics-info .img-fluid{
+    width: 8rem;
+    height: 8rem;
+}
+.porfolio-heading-center {
+    /* position: relative; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0 20px 0;
+}
+.porfolio-heading-center .main_title {
+    font-size: 4rem;
+    color: #131022;
+    /* position: relative; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.porfolio-heading-center .sub_title {
+    font-size: 2.625rem;
+    color: white;
+    font-family: "Caveat", cursive;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.skills{
+    text-align: center;
+}
+.skills .skill-badge {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 8px;
+    padding: 10px 70px;
+    font-size: 2rem;
+    margin: 1rem 3rem;
+}
+.technical{
+    /* height:33rem; */
+    height:22rem;
+    margin-top: 0rem;
+    
+}
+
+/* aboutMe.php */
+.aboutMe{
+    height:33rem;
+    margin-top: 0rem;
+    height: 61rem;
+    width: 100%;
+}
+.protfolio-about-center {
+    /* position: relative; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0 20px 0;
+}
+.protfolio-about-center .main_title {
+    font-size: 4rem;
+    color: #131022;
+    font-weight: 900;
+    /* position: relative; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.protfolio-about-center .sub_title {
+    font-size: 2.625rem;
+    color: white;
+    font-family: "Caveat", cursive;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.aboutMe .aboutMe-contant{
+    font-size: 1.7rem;
+    white-space: pre-wrap;
+    text-transform:none;
+    padding: 0rem 3rem;
+}
+/*Work Experience  */
+.WorkExperience-heading-center {
+    /* position: relative; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0 30px 0;
+}
+.WorkExperience-heading-center .main_title {
+    font-size: 4rem;
+    color: #131022;
+    font-weight: 900;
+    /* position: relative; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.WorkExperience-heading-center .sub_title {
+    font-size: 2.625rem;
+    color: #6772E5;
+    font-family: "Caveat", cursive;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.work-experience{
+    /* padding:2rem; */
+    margin: 3rem 0rem;
+}
+.work-experience h4 {
+    font-size: 1.7rem;
+}
+.work-experience .h3_right{
+    right: 3rem;
+    position: absolute;
+    right: 2rem;
+    font-size: 1.5rem;
+}
+.work-experience img{
+    width: 7rem;
+}
+.work-experience .company_name{
+    font-size: 2rem;
+    
+    padding: 0rem 2rem;
+} 
+
+/* Footer.php */
+.portfolio-footer-section{
+    position: relative;
+}
+.portfolio-footer-section .footer-img img{
+    height:60rem;
+    width: 100%;
+    filter: blur(5px);
+}
+.portfolio-footer-section .footer-text{
+    position: absolute;
+    font-size: 4rem;
+    bottom: 131px;
+    left: 208px;
+    color: black;
+}
+
+
+/* Certificates.php */
+.certificates{
+    height: auto;
+    width: 100%;
+    top:2rem;
+}
+.certificates-heading-center {
+    /* position: relative; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0 30px 0;
+}
+.certificates-heading-center .main_title {
+    font-size: 4rem;
+    color: #131022;
+    font-weight: 900;
+    /* position: relative; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certificates-heading-center .sub_title {
+    font-size: 2.625rem;
+    color: white;
+    font-family: "Caveat", cursive;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.certificates{
+    padding: 4rem 0rem;
+}
+.certificates .cert_view {
+    overflow: hidden;
+    position: relative;
+    height: 42px;
+}
+.certificates .cert_view img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+    height: 100%;
+    padding: 1rem;
+}
+
+
+/* ContactMe.php */
+.contact{
+    bottom: 0rem;
+    height: auto;
+    width: 100%;
+}
+.contact-me{
+    /* border: 1px solid black; */
+    height: 45rem;
+}
+.contact-me img{
+    width:100%;
+    height: 50rem;
+}
+.contact-heading-center {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 45rem;
+}
+.contact-heading-center .main_title {
+    font-size: 4rem;
+    /* color: #131022; */
+    color:white;
+    font-weight: 900;
+    /* position: relative; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-heading-center .sub_title {
+    font-size: 2.625rem;
+    color: #6772E5;
+    font-family: "Caveat", cursive;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.contacts{
+    position: relative;
+    display: flex;
+    color: white;
+    bottom: 35rem;
+}
+.contacts .contact-box{
+    position: relative;
+    border: 2px solid white;
+    /* width: 25%; */
+    height: 12rem;
+    border-radius: 1rem;
+    margin: 0rem 1rem;
+    padding: 1rem 3rem;
+}
+.contacts .contact-box .contact_mode{
+    font-size: 2rem;
+}
+.contacts .contact-box .contact_mode_link{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 3rem 0rem;
+    font-size: 1.5rem;
+}
+.contacts .contact-box a{  
+    text-decoration: none;
+    color: #296fbf;
+    font-size:4rem;
+    width: 70px;
+    height: 70px;
+    /* border-radius: 50%; */
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    position: absolute;
+    right: 31px;
+    top: -37px;
+}
+.contacts .contact-box a:hover{
+    background-color:  #296fbf;
+    color:white;
+}
+
+/* Projects.php */
+.projects{
+    top:2rem;
+    height: auto;
+    width: 100%;
+}
+.projects-heading-center {
+    /* position: relative; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0 30px 0;
+}
+.projects-heading-center .main_title {
+    font-size: 4rem;
+    color: #131022;
+    font-weight: 900;
+    /* position: relative; */
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects-heading-center .sub_title {
+    font-size: 2.625rem;
+    color: #6772E5;
+    font-family: "Caveat", cursive;
+    margin-bottom: 0;
+    margin-left: 1rem;
+}
+.row{
+    display:flex;
+}
+.row .box{
+    padding: 0rem 0rem;
+    margin: 1rem 1rem;
+    border: 1px solid black;
+    width: 45rem;
+}
+.row .box .card .card-body {
+    height: 8rem;
+}
+.row .box .card .card-body .card-text{
+    font-size: 1.3rem;
+    height: 7rem;
+    text-transform: none;
+}
+.row .box .card .card-body img{
+    width: 8rem;
+}
+.project-card{
+    background-color: #3e3b3b;;
+    color:white;
+    height: 45rem;
+
+}
+.btn-property{
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    width: 11rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    height: 3.5rem;
+}
+.project_thumb img{
+    width:44.5rem;
+    height:25rem;
+}
+
+
+
+
+
+
+
+
+/* For making responsive */
+@media (max-width: 1500px){
+    .technical{
+        height:25rem;
+    }
+}
+@media (max-width: 1300px){
+    .certificates .cert_view{
+        width: 60rem;
+        height: 60rem;
+    }
+}
+@media (max-width: 1200px){
+    .contacts {
+        bottom: 39rem;
+    }
+    .contacts .contact-box {
+        margin: 2rem 1rem;
+    }
+}
+@media (max-width: 992px)
+{
+    html 
+    {
+    font-size: 55%;
+    }
+    .header{
+        padding: 2rem 4%;
+    }
+    .technical{
+        height:40rem;
+    }
+}
+@media (max-width: 928px){
+    .aboutMe {
+        height: 62rem;
+    }
+    .technical{
+        height:40rem;
+    }
+}
+@media (max-width: 850px)
+{
+    #menu-btn{
+        display: inline-block;
+        cursor: pointer;
+    }
+    .header .h_navbar{
+        position: absolute;
+        top: 110%;
+        right: -110%;
+        width: 10rem;
+        box-shadow: var(--box-shadow);
+        border-radius: 0.5rem;
+        background: #fff;
+    }
+    .header .h_navbar .a{
+        font-size: 2rem;
+        margin: 0rem 2.5rem;
+        display: block;
+    }
+    .protfolio{
+        height: 83rem;
+    }
+    .protfolio .p_container{
+        height: 30rem;
+        display: grid;
+    }
+    .protfolio .p_container .information{
+        width: 100%;
+        height: 30rem;
+    }
+    .h1,h1{
+        font-size: 3rem !important;
+    }
+    .profileImage{
+        width:100%;
+    }
+    .protfolio-about-center {
+        padding: 95px 0 20px 0;
+    } 
+    .flaticon-div .statics-info .media-body{
+        font-size: 4rem;
+    }
+    .porfolio-heading-center{
+        padding: 45px 0 45px 0;
+    } 
+
+    /* Footer.php */
+    .portfolio-footer-section .footer-img img{
+        height:40rem;
+        width: 100%;
+    }
+    .technical{
+        height:40rem;
+    }
+}
+@media (max-width: 768px){
+    .contact-me img{
+        height: 75rem;
+    }
+    .contact-heading-center {
+        bottom: 70rem;
+    }
+    .contacts {
+        bottom: 68rem;
+    }
+    .aboutMe {
+        height: 68rem;
+    }
+    .technical{
+        height:40rem;
+    }
+}
+@media (max-width: 700px){
+    .aboutMe {
+        height: 70rem;
+    }
+    .technical{
+        height:40rem;
+    }
+}
+@media (max-width: 550px)
+{
+    header .logo {
+        font-size: 1.5rem;
+    }
+    .portfolio-about-section {
+        width: 36rem;
+    }
+    .technical{
+        height:55rem;
+    }
+    .aboutMe {
+        height: 88rem;
+    }
+    .flaticon-div .statics-info {
+        width: 9rem;
+        height: 10rem;
+        /* padding: -1.5rem; */
+        margin: 1rem 1rem;
+    }
+    .flaticon-div .statics-info .img-fluid {
+        width: 6rem;
+        height: 6rem;
+    }
+    header .link {
+        font-size: 2rem;
+    }
+}
 
